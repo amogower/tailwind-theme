@@ -1,0 +1,22 @@
+{
+    "name": "tailwind-theme",
+    "displayName": "Tailwind Theme",
+    "description": "git remote add origin git@github.com:amogower/tailwind-theme.git",
+    "version": "0.0.1",
+    "publisher": "amogower",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tailwind",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tailwind-color-theme.json"
+            }
+        ]
+    }
+}
